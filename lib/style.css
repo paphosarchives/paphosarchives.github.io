@@ -1,0 +1,44 @@
+html {
+  background: url(../images/kritou-terra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, p, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container #mail-chimp {
+  margin: 200px auto 100px;
+  width: 450px;
+}
+
+
+#mc_embed_signup {
+  clear:left;
+  background-color: rgba(255,255,255,0.7);
+}
+
+#logo {
+  position: relative;
+  text-align: right;
+}
+
+img {
+  max-height: 150px;
+}
+
+@media(max-width: 400px) {
+  #logo {
+    right: 0;
+    position: relative;
+    text-align: center;
+  }
+
+  #container #mail-chimp {
+    margin: 170px auto 100px;
+    width: 350px;
+  }
+}
